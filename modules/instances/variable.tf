@@ -21,10 +21,10 @@ default = "eu-west-2"
 variable "AMIS" {
     type = map
     default = {
-        us-east-1 = "ami-06908478b0577ac8a"
-        us-east-2 = "ami-0f497f2bb1862a8e9"
-        eu-west-2 = "ami-0175a41d602341364"
-        eu-west-1 = "ami-0543a5665b0c1f6ad"
+        us-east-1 = "ami-0408adfcef670a71e"
+        us-east-2 = "ami-004dae62019936191"
+        eu-west-2 = "ami-0103fdca60001bd3c"
+        eu-west-1 = "ami-01b1f2cdbfcb3644e"
     }
 }
 
