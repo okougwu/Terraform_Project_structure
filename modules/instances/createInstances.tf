@@ -35,7 +35,7 @@ resource "aws_security_group" "ssh-sg" {
 resource "aws_instance" "my-instance" {
   ami           = lookup(var.AMIS, var.AWS_REGION)
   instance_type = var.INSTANCE_TYPE
-  map_public_ip_on_launch = true
+  map_public_ip_on_launch = "true"
 
   # the VPC subnet
   subnet_id = element(var.PUBLIC_SUBNETS, 0)
